@@ -1,4 +1,4 @@
-=== MCE Accessible Lang ===
+=== MCE Accessible Language Change ===
 Contributors: Sylvia Egger (sprungmarker.de)
 Donate link: http://sprungmarker.de
 Tags: editor, WYSIWYG, buttons, language change, accessibility, tinymce, rich text editor, accessible, language
@@ -31,7 +31,7 @@ Hoping to add more features in a future update.
 
 == Installation ==
 
-1. Upload `mce-accessible-lang` folder to the `/wp-content/plugins/` directory
+1. Upload `mce-accessible-language-change` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. To show your language change in a visual way in the editor - not on your website:
    You have to do nothing for it - the file in css > changelang.css will do everything for you.
@@ -61,8 +61,7 @@ span[lang], .lang {
 =1.0=
 
 * First release
-* Minor text changes in readme.txt
-* plugin name has changed, because the folder should have initially the name 'mce-accessible-lang'
+* Minor changes renaming files according to the name of zip file
 
 == Upgrade Notice ==
 

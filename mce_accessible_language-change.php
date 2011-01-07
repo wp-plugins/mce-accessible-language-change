@@ -1,6 +1,6 @@
 <?php
 /**
- Plugin Name: MCE Accessible Lang
+ Plugin Name: MCE Accessible Language Change
  Plugin URI: http://sprungmarker.de/thema/plugins/
  Description: Add <strong>accessible language change</strong> to the WordPress WYSIWYG editor.
  Version: 1.0
@@ -33,7 +33,7 @@ if ( ! function_exists('plugin_mce_css') ) {
 		if ( $tadv_options['importcss'] == '1' )
 			$wp .= ',' . get_bloginfo('stylesheet_url');
 
-		$wp .= ',' . WP_PLUGIN_URL . '/mce-accessible-lang/css/changelang.css';
+		$wp .= ',' . WP_PLUGIN_URL . '/mce-accessible-language-change/css/changelang.css';
 		return trim($wp, ' ,');
 	}
 }
@@ -41,7 +41,7 @@ add_filter( 'mce_css', 'plugin_mce_css' );
 
 if ( ! function_exists('mce_accessible_langs') ) {
 	function mce_accessible_langs($langpath) {
-		$langpath = WP_PLUGIN_DIR . '/mce-accessible-lang/language/langs/langs.php';
+		$langpath = WP_PLUGIN_DIR . '/mce-accessible-language-change/language/langs/langs.php';
 	}
 }
 add_filter( 'mce_external_languages', 'mce_accessible_langs' );
@@ -67,7 +67,7 @@ if ( ! function_exists('register_accessible_lang_button') ) {
 
 if ( ! function_exists('add_accessible_lang_tinymce_plugin') ) {
 	function add_accessible_lang_tinymce_plugin($plugin_array) {
-	   $plugin_array['changelang'] = WP_PLUGIN_URL.'/mce-accessible-lang/language/editor_plugin.js';
+	   $plugin_array['changelang'] = WP_PLUGIN_URL.'/mce-accessible-language-change/language/editor_plugin.js';
 	   return $plugin_array;
 	}
 }
