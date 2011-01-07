@@ -1,6 +1,6 @@
 <?php
 /**
- Plugin Name: MCE Accessible Language Change
+ Plugin Name: MCE Accessible Lang
  Plugin URI: http://sprungmarker.de/thema/plugins/
  Description: Add <strong>accessible language change</strong> to the WordPress WYSIWYG editor.
  Version: 1.0

@@ -1,4 +1,4 @@
-=== MCE Accessible Language Change ===
+=== MCE Accessible Lang ===
 Contributors: Sylvia Egger (sprungmarker.de)
 Donate link: http://sprungmarker.de
 Tags: editor, WYSIWYG, buttons, language change, accessibility, tinymce, rich text editor, accessible, language
@@ -61,6 +61,8 @@ span[lang], .lang {
 =1.0=
 
 * First release
+* Minor text changes in readme.txt
+* plugin name has changed, because the folder should have initially the name 'mce-accessible-lang'
 
 == Upgrade Notice ==
 
