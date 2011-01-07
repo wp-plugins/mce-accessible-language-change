@@ -34,8 +34,10 @@ Hoping to add more features in a future update.
 1. Upload `mce-accessible-language-change` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. To show your language change in a visual way in the editor - not on your website:
+
    You have to do nothing for it - the file in css > changelang.css will do everything for you.
-   If you can see a visual change, you probably have a file named editor-styles.css in your WordPress theme.
+   
+   If you can not see any visual change, you probably have a file named editor-styles.css in your WordPress theme.
    If you have already an file named editor-style.css in your theme, you have to copy the styles below into your editor-styles.css to get your language changes visible in the editor.
    
 CSS styles to add:
