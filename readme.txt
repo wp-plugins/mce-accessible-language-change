@@ -40,11 +40,11 @@ Hoping to add more features in a future update.
    
 CSS styles to add:
 
-span[lang], .lang {
+`span[lang], .lang {
     background: #f8f8f8;
     border: 1px solid #d2d0ce;
     padding: 2px;
-}
+}`
 
 == Frequently Asked Questions ==
 
