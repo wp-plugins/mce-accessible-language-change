@@ -36,17 +36,15 @@ Hoping to add more features in a future update.
 3. To show your language change in a visual way in the editor - not on your website:
    You have to do nothing for it - the file in css > changelang.css will do everything for you.
    If you can see a visual change, you probably have a file named editor-styles.css in your WordPress theme.
-   If you have already an file named editor-style.css in your theme, you have to copy the styles below into your editor-styles.css
-   to get your language changes visible in the editor.
+   If you have already an file named editor-style.css in your theme, you have to copy the styles below into your editor-styles.css to get your language changes visible in the editor.
    
----- CSS styles begin ----
-span[lang],
-.lang {
+CSS styles to add:
+
+span[lang], .lang {
     background: #f8f8f8;
     border: 1px solid #d2d0ce;
     padding: 2px;
 }
----- CSS styles end ----
 
 == Frequently Asked Questions ==
 
@@ -68,3 +66,4 @@ span[lang],
 
 = 1.0 =
 No upgrades right now.
+Just some minor changes in readme.txt.
