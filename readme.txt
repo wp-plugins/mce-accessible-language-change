@@ -3,7 +3,7 @@ Contributors: Sylvia Egger (sprungmarker.de)
 Donate link: http://sprungmarker.de
 Tags: editor, WYSIWYG, buttons, language change, accessibility, tinymce, rich text editor, accessible, language
 Requires at least: 3.0
-Tested up to: 3.1
+Tested up to: 3.3
 Stable tag: trunk
 License: GNU General Public License v2.0
 
@@ -60,6 +60,10 @@ CSS styles to add:
 
 == Changelog ==
 
+=1.1=
+
+* Path corrections for TinyMCE.
+
 =1.0=
 
 * First release
@@ -69,4 +73,8 @@ CSS styles to add:
 
 = 1.0 =
 No upgrades right now.
+Just some minor changes in readme.txt.
+
+= 1.1 =
+Path corrections for TinyMCE.
 Just some minor changes in readme.txt.
