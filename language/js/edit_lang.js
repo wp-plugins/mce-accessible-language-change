@@ -16,7 +16,7 @@ function init() {
 }
 
 function insertClang() {
-	SXE.insertElement(tinymce.isIE6 == false ? 'span' : 'html:span');
+	SXE.insertElement('span');
 	tinyMCEPopup.close();
 }
 
