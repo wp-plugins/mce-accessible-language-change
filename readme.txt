@@ -11,6 +11,9 @@ Adds language change buttons in the WordPress WYSIWYG editor.
 
 == Description ==
 
+Attention: Currently there is a bug in IE and therefor the plugin is not working correctly in IE.
+I am working on it to get it running in IE as soon as possible ...
+
 Adds language change buttons in the WordPress WYSIWYG editor.
 
 A very light weight plug-in with two button for adding language change. The buttons will
