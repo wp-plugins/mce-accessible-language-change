@@ -19,30 +19,29 @@ be added in the first row of the editor.
 Just highlight the word or phrase or insert the cursor in the text, then click on the language button.
 Fill out the form:
 
-* Add the appropriate language code for the phrase or text (e.g. \"fr\" for a french word or phrase)
-* Only for links: Add the appropriate language code for the link target (e.g. \"fr\" for a french word or phrase)
+* Add the appropriate language code for the phrase or text (e.g. 'fr' for a french word or phrase)
+* Only for links: Add the appropriate language code for the link target (e.g. 'fr' for a french word or phrase)
 * If you want to delete lang attributes, activate the checkbox. But you can just empty the language code field.
 
-Click "OK" and you the the following:
+Click "OK" and you get the the following:
 
 * If you just inserted the cursor in the text, you get a lang attribute for the parent element.
-* If you highlight the word or phrase you, you get a span element with lang attribute surrounding the selected text.
+* If you highlight a word or phrase, you get a span element with lang attribute surrounding the selected text.
 * For links you get a lang attribute and in case a href lang attribute.
 
-The plugin ist localized for english and german; please let me know if you would like additional
+The plugin is localized for english and german; please let me know if you would like additional
 localizations added.
 
 **Note**
 
-If your WP Version is under 3.9 you have to download plugin version 1.2.:
-[download area: ](http://wordpress.org/plugins/mce-accessible-language-change/download/)
+If your WP Version is under 3.9 you have to download plugin version 1.2. in [downloads:](http://wordpress.org/plugins/mce-accessible-language-change/download/).
 
 == Installation ==
 1. Upload `mce-accessible-language-change` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the \'Plugins\' menu in WordPress
 3. To show your language change in a visual way in the editor - not on your website:
 
-   You have to do nothing for it - the file in css > changelang.css will do everything for you.
+   You have to do nothing - the file in css > changelang.css will do everything for you.
 
    If you can not see any visual change, you probably have a file named editor-styles.css in your WordPress theme.
    If you have already an file named editor-style.css in your theme, you have to copy the styles below into your editor-styles.css to get your language changes visible in the editor.
