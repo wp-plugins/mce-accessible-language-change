@@ -59,7 +59,6 @@ CSS styles to add:
      border: 1px solid #d2d0ce;
      border-right: 5px solid #BF8EC8;
      padding: 2px;
-     display: inline-block;
      color: #9C2E16;
  }
  `
