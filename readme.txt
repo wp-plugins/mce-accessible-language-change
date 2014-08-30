@@ -1,67 +1,80 @@
 === MCE Accessible Language Change ===
-Contributors: Sylvia Egger (sprungmarker.de)
+Contributors: sprungmarker
+Tags: accessibility, accessible, buttons, editor, language, language change, rich text editor, TinyMCE, wysiwyg, wcag, bitv
 Donate link: http://sprungmarker.de
-Tags: editor, WYSIWYG, buttons, language change, accessibility, tinymce, rich text editor, accessible, language
-Requires at least: 3.0
+Requires at least: 3.9
 Tested up to: 4.0
 Stable tag: trunk
 License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
-Adds language change buttons in the WordPress WYSIWYG editor.
+Adds language change button in the WordPress WYSIWYG editor. (WCAG, BITV)
 
 == Description ==
+Adds language change button in the WordPress WYSIWYG editor. (WCAG, BITV)
 
-Attention: Currently there is a bug in IE and therefor the plugin is not working correctly in IE.
-I am working on it to get it running in IE as soon as possible ...
-
-Adds language change buttons in the WordPress WYSIWYG editor.
-
-A very light weight plug-in with two button for adding language change. The buttons will
+A very light weight plug-in for inserting language change. The button will
 be added in the first row of the editor.
 
-First you can add language changeon the basis of an span element. Just highlight the word
-or phrase you want to add language change, klick on the "lang" button an add the appropriate
-language (e.g. "fr" for a french word or phrase).
+Just highlight the word or phrase or insert the cursor in the text, then click on the language button.
+Fill out the form:
 
-Second you can add language change to existing html elements as paragraphs, headlines and links.
-Just klick in the context of a block element, klick on the button "lang attr" and add the appropriate language
-(e.g. "fr" for a french word or phrase).
+* Add the appropriate language code for the phrase or text (e.g. \"fr\" for a french word or phrase)
+* Only for links: Add the appropriate language code for the link target (e.g. \"fr\" for a french word or phrase)
+* If you want to delete lang attributes, activate the checkbox. But you can just empty the language code field.
+
+Click "OK" and you the the following:
+
+* If you just inserted the cursor in the text, you get a lang attribute for the parent element.
+* If you highlight the word or phrase you, you get a span element with lang attribute surrounding the selected text.
+* For links you get a lang attribute and in case a href lang attribute.
 
 The plugin ist localized for englisch and german; please let me know if you would like additional
 localizations added.
 
-Hoping to add more features in a future update.
+**Note**
+If your WP Version is under 3.9 you have to download plugin version 1.2.: [http://wordpress.org/plugins/mce-accessible-language-change/download/]
 
 == Installation ==
-
 1. Upload `mce-accessible-language-change` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+2. Activate the plugin through the \'Plugins\' menu in WordPress
 3. To show your language change in a visual way in the editor - not on your website:
 
    You have to do nothing for it - the file in css > changelang.css will do everything for you.
-   
+
    If you can not see any visual change, you probably have a file named editor-styles.css in your WordPress theme.
    If you have already an file named editor-style.css in your theme, you have to copy the styles below into your editor-styles.css to get your language changes visible in the editor.
-   
+
 CSS styles to add:
 
-`span[lang], .lang {
-    background: #f8f8f8;
-    border: 1px solid #d2d0ce;
-    padding: 2px;
-}`
+`[lang] {
+     background: #f8f8f8;
+     border: 1px solid #d2d0ce;
+     padding: 2px;
+ }
+
+ a[hreflang] {
+     background: #f8f8f8;
+     border: 1px solid #d2d0ce;
+     border-right: 5px solid #BF8EC8;
+     padding: 2px;
+     display: inline-block;
+     color: #9C2E16;
+ }
+ `
 
 == Frequently Asked Questions ==
-
 = No questions right now =
 
 == Screenshots ==
-
-1. The editor with the new button for language change "lang" and "lang attr" and showing the language change in the text highlighted.
+1. The editor with the new button for language change.
 2. The editor popup showing language change options.
-3. The editor popup showing language attributes options.
+3. The editor with selected text and lang attribute marked with CSS (visual / text mode).
 
 == Changelog ==
+=2.0=
+
+* Completely rewritten for TinyMCE 4.
 
 =1.2=
 
@@ -74,17 +87,16 @@ CSS styles to add:
 =1.0=
 
 * First release
-* Minor changes renaming files according to the name of zip file
+* Minor changes renaming files according to the name of zip file.
+
 
 == Upgrade Notice ==
 
-= 1.0 =
-No upgrades right now.
-Just some minor changes in readme.txt.
-
-= 1.1 =
-Path corrections for TinyMCE.
-Just some minor changes in readme.txt.
+= 2.0 =
+Plugin is rewritten and completely adapted to TinyMCE 4 - Upgrade for WP 3.9 and above.
 
 = 1.2 =
-Small fix for new version of TinyMCE.
+Plugin was not working in TinyMCE 4 anymore - Upgrade immediately.
+
+= 1.1 =
+This was a path fix - you should upgrade.
