@@ -34,7 +34,8 @@ localizations added.
 
 **Note**
 
-If your WP Version is under 3.9 you have to download plugin version 1.2. in [downloads:](http://wordpress.org/plugins/mce-accessible-language-change/download/).
+If your WP Version is **under 3.9** you have to download plugin version **1.2.** in [downloads](http://wordpress.org/plugins/mce-accessible-language-change/download/).
+Version 1.2. does not work properly in IE.
 
 == Installation ==
 1. Upload `mce-accessible-language-change` folder to the `/wp-content/plugins/` directory
