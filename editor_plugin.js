@@ -1,5 +1,5 @@
 (function() {
-    tinymce.PluginManager.requireLangPack('changelang', 'de,en');
+    tinymce.PluginManager.requireLangPack('changelang', 'de,en,fr,es,it');
     tinymce.create('tinymce.plugins.ChangeLangPlugin', {
         /**
          * Initializes the plugin, this will be executed after the plugin has been created.

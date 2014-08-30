@@ -29,8 +29,16 @@ Click "OK" and you get the the following:
 * If you highlight a word or phrase, you get a span element with lang attribute surrounding the selected text.
 * For links you get a lang attribute and in case a href lang attribute.
 
-The plugin is localized for english and german; please let me know if you would like additional
-localizations added.
+The plugin is localized for:
+
+* english
+* german
+* spanish
+* french
+* italian
+
+
+Please let me know if you would like additional localizations added. And of course if you want to improve included translations.
 
 **Note**
 
