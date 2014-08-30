@@ -21,7 +21,8 @@ function insertClang() {
 }
 
 function removeClang() {
-	SXE.removeElement('span');
+    //SXE.insertElement(tinymce.isIE6 == false ? 'span' : 'html:span');
+    SXE.removeElement('span');
 	tinyMCEPopup.close();
 }
 
