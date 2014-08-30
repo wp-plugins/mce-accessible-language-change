@@ -38,7 +38,7 @@ The plugin is localized for:
 * italian
 
 
-Please let me know if you would like additional localizations added. And of course if you want to improve included translations.
+Please let me know if you would like additional localizations added. And of course if you want to improve included translations (developer @ sprungmarker.de)
 
 **Note**
 
