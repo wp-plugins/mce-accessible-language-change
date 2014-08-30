@@ -1,6 +1,6 @@
 === MCE Accessible Language Change ===
 Contributors: sprungmarker
-Tags: accessibility, accessible, buttons, editor, language, language change, rich text editor, TinyMCE, wysiwyg, wcag, bitv
+Tags: accessibility, accessible, buttons, editor, language, language change, language code, hreflang, lang, rich text editor, TinyMCE, wysiwyg, WCAG, WCAG 2, BITV, a11y,
 Donate link: http://sprungmarker.de
 Requires at least: 3.9
 Tested up to: 4.0
