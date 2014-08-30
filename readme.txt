@@ -73,6 +73,9 @@ CSS styles to add:
 3. The editor with selected text and lang attribute marked with CSS (visual / text mode).
 
 == Changelog ==
+=2.1=
+
+* IE fix editor CSS
 
 =2.0=
 
@@ -93,6 +96,9 @@ CSS styles to add:
 
 
 == Upgrade Notice ==
+
+= 2.1 =
+If your are using IE, you should upgrade.
 
 = 2.0 =
 Plugin is rewritten and completely adapted to TinyMCE 4 - Upgrade for WP 3.9 and above.
