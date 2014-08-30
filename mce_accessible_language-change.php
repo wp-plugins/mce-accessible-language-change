@@ -5,7 +5,7 @@ defined('ABSPATH') or die("No script kiddies please!");
  * Plugin Name: MCE Accessible Language Change
  * Plugin URI: http://sprungmarker.de
  * Description: Add <strong>accessible language change</strong> to the WordPress WYSIWYG editor.
- * Version: 2.0
+ * Version: 2.1
  * Author: Sylvia Egger (developer@sprungmarker.de)
  * Author URI: http://sprungmarker.de
  * License: GNU General Public License v2.0
