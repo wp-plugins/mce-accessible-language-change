@@ -29,11 +29,13 @@ Click "OK" and you the the following:
 * If you highlight the word or phrase you, you get a span element with lang attribute surrounding the selected text.
 * For links you get a lang attribute and in case a href lang attribute.
 
-The plugin ist localized for englisch and german; please let me know if you would like additional
+The plugin ist localized for english and german; please let me know if you would like additional
 localizations added.
 
 **Note**
-If your WP Version is under 3.9 you have to download plugin version 1.2.: [http://wordpress.org/plugins/mce-accessible-language-change/download/]
+
+If your WP Version is under 3.9 you have to download plugin version 1.2.:
+[download area: ](http://wordpress.org/plugins/mce-accessible-language-change/download/)
 
 == Installation ==
 1. Upload `mce-accessible-language-change` folder to the `/wp-content/plugins/` directory
@@ -67,11 +69,13 @@ CSS styles to add:
 = No questions right now =
 
 == Screenshots ==
+
 1. The editor with the new button for language change.
 2. The editor popup showing language change options.
 3. The editor with selected text and lang attribute marked with CSS (visual / text mode).
 
 == Changelog ==
+
 =2.0=
 
 * Completely rewritten for TinyMCE 4.
