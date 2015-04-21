@@ -3,7 +3,7 @@ Contributors: sprungmarker
 Tags: accessibility, accessible, buttons, editor, language, language change, language code, hreflang, lang, rich text editor, TinyMCE, wysiwyg, WCAG, WCAG 2, BITV, a11y,
 Donate link: http://sprungmarker.de
 Requires at least: 3.9
-Tested up to: 4.0
+Tested up to: 4.1.2
 Stable tag: trunk
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
